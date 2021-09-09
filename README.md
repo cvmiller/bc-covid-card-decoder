@@ -4,7 +4,7 @@ A Python Decoder of the BC Covid Vaccine Card QR Code
 Copy QR Code to a File, then run the decoder using the PNG file. It will "pretty" print the JSON data in the QR Code
 
 
-**Usage:** shc-decoder-png.py &gt;QR Code PNG file&lt;
+**Usage:** shc-decoder-png.py &lt;QR Code PNG file&gt;
 
 ---
 
