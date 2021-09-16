@@ -2,8 +2,11 @@
 A Python Decoder of the BC Covid Vaccine Card QR Code
 
 Requirements: Python3 & the following libraries
-* pip3 install flynn base45 PyPDF2 pyzbar Pillow
-* dnf install zbar || apt install libzbar0 || apk add libzbar
+* `pip3 install flynn base45 PyPDF2 pyzbar Pillow`
+* Install a `zbar` library for your distro:
+	* Redhat/Fedora: `dnf install zbar` 
+	* Debian/Ubuntu: `apt install libzbar0` 
+	* Alpine Linux:  `apk add libzbar`
 
 
 Copy QR Code to a File, then run the decoder using the PNG file. It will "pretty" print the JSON data in the QR Code
