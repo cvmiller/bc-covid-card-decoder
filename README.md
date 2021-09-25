@@ -12,7 +12,7 @@ Requirements: Python3 & the following libraries
 Copy QR Code to a File, then run the decoder using the PNG file. It will "pretty" print the JSON data in the QR Code
 
 
-**Usage:** shc-decoder-png.py &lt;QR Code PNG file&gt;
+**Usage:** ./shc-decoder-png.py &lt;QR Code PNG file&gt;
 
 ---
 
