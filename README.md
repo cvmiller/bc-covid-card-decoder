@@ -17,6 +17,7 @@ Copy QR Code to a File, then run the decoder using the PNG file. It will "pretty
 **Usage:** ./shc-decoder-png.py &lt;QR Code PNG file&gt;
 
 ---
+**Note:** Decoder is designed to reveal the information contained in the QR Code, and does not *validate* the QR Code.
 
 Work is based on shc-decoder-poc.py	from [https://github.com/marcan2020/shc-decoder-poc](https://github.com/marcan2020/shc-decoder-poc)
 and greenpass.py [https://gir.st/blog/greenpass.html](https://gir.st/blog/greenpass.html)
