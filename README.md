@@ -1,5 +1,7 @@
 # bc-covid-card-decoder
-A Python Decoder of the BC Covid Vaccine Card QR Code
+A Python Decoder of the BC Covid Vaccine Card QR Code and Canada QR Code
+
+![Canada QR Sample](https://raw.githubusercontent.com/cvmiller/bc-covid-card-decoder/main/fed_can_covid_pvc-specimen-1.jpg)
 
 Requirements: Python3 & the following libraries
 * `pip3 install flynn base45 PyPDF2 pyzbar Pillow`
